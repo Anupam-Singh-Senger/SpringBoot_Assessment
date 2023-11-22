@@ -15,11 +15,11 @@ public class EschoolApplication {
 		StudentService s = ss.getBean(StudentService.class);
 		s.addNewStudentDetail(1, "Ruchi", 76);
 		s.addNewStudentDetail(2, "Anjali", 48);
-		s.addNewStudentDetail(3, "Abhi", 95);
+		s.addNewStudentDetail(3, "Abhishek", 95);
 
 		s.getAllStudentDetails();
-		s.getStudentDetailsById(1);
-		s.updateStudentScore(3,60.8);
+		s.getStudentDetailsById(2);
+		s.updateStudentScore(1,60.8);
 		s.deleteStudentDetails(2);
 		s.getAllStudentDetails();
 	}
